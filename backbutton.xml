@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
-<install version="1.5" type="plugin" group="editors-xtd" method="upgrade">
+<extension version="1.7" type="plugin" group="editors-xtd" method="upgrade">
 	<name>Editor Button - Back Button</name>
 	<author>Wojciech Smoliński</author>
 	<creationDate>June  2011</creationDate>
-	<copyright>opyright (c) Wojciech Smoliński, 2011. All rights  reserved</copyright>
+	<copyright>copyright (c) Wojciech Smoliński, 2011. All rights  reserved</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>wojsmol@wp.pl</authorEmail>
 	<authorUrl></authorUrl>
-	<version>1.0.0</version>
+	<version>1.1</version>
 	<description>EBBBDESCRIPTION</description>
 	<files>
 		<filename plugin="backbutton">backbutton.php</filename>
+		<folder>language</folder>
 	</files>
-	<languages folder="language">
-			<language tag="en-GB">en-GB.plg_editors-xtd_backbutton.ini</language>
-            <language tag="pl-PL">pl-PL.plg_editors-xtd_backbutton.ini</language>
-			<language tag="nl-NL">nl-NL.plg_editors-xtd_backbutton.ini</language>
-	</languages>
-	<params />
-</install>
+	<config />
+</extension>

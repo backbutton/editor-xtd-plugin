@@ -14,7 +14,7 @@
  */
  
  // no direct access
-defined( '_JEXEC' ) or die( 'Restricted access' );
+defined( '_JEXEC' ) or die;
 jimport( 'joomla.plugin.plugin' );
 class plgButtonBackbutton extends JPlugin {
     /**
