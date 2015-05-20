@@ -42,11 +42,11 @@ class plgButtonBackbutton extends JPlugin {
         $doc = JFactory::getDocument();
         $doc->addScriptDeclaration($js);
         $button = new JObject();
-        $button->modal=false;
-        $button->onclick = 'buttonBackbuttonClick(\''.$name.'\');return false;';
-        $button->text = JText::_('EBBBNAME');
-        $button->name = 'backbuttonButton';
-        $button->link = '#';
+        $button->set('modal', false);
+        $button->set('onclick', 'buttonBackbuttonClick(\''.$name.'\');return false;');
+        $button->set('text', JText::_('EBBBNAME'));
+        $button->set('name', 'backbuttonButton');
+        $button->set('link', '#');
         return $button;
     }
 }
