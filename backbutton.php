@@ -39,7 +39,7 @@ class plgButtonBackbutton extends JPlugin {
  function buttonBackbuttonClick(editor) {         
                               jInsertEditorText('{backbutton}', editor);
 		}";
-        $doc = & JFactory::getDocument();
+        $doc = JFactory::getDocument();
         $doc->addScriptDeclaration($js);
         $button = new JObject();
         $button->set('modal', false);
