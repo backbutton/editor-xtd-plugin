@@ -36,17 +36,20 @@ class plgButtonBackbutton extends JPlugin {
     function onDisplay($name)
     {
         $js =  "                      
- function buttonBackbuttonClick(editor) {         
+ function backbuttonXTDButtonClick(editor) {         
                               jInsertEditorText('{backbutton}', editor);
 		}";
         $doc = JFactory::getDocument();
         $doc->addScriptDeclaration($js);
+		
         $button = new JObject();
         $button->set('modal', false);
-        $button->set('onclick', 'buttonBackbuttonClick(\''.$name.'\');return false;');
+		$button->set('class', 'btn');
+		$button->set('link', '#');
         $button->set('text', JText::_('EBBBNAME'));
-        $button->set('name', 'backbuttonButton');
-        $button->set('link', '#');
+		$button->set('name', 'backbuttonButton');
+		$button->set('onclick', 'backbuttonXTDButtonClick(\''.$name.'\');return false;');
+		
         return $button;
     }
 }
