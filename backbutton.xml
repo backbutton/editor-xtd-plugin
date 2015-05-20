@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
-<extension version="1.7" type="plugin" group="editors-xtd" method="upgrade">
+<extension version="2.5" type="plugin" group="editors-xtd" method="upgrade">
 	<name>Editor Button - Back Button</name>
 	<author>Wojciech Smoliński</author>
 	<creationDate>June  2011</creationDate>
