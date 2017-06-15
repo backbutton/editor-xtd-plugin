@@ -4,7 +4,7 @@
  * Based on http://tushev.org/articles/programming/18-how-to-create-an-editor-button-editors-xtd-plugin-for-joomla
  * @package             Joomla
  * @subpackage  System
- * @copyright   Copyright (C) Wojciech Smoliñski, 2011. All rights reserved.
+ * @copyright   Copyright (C) Wojciech SmoliÃ±ski, 2011. All rights reserved.
  * @license     GNU GPL v2.0
  * Joomla! is free software. This version may have been modified pursuant
  * to the GNU General Public License, and as distributed it includes or
@@ -28,7 +28,7 @@ class plgButtonBackbutton extends JPlugin {
      * @param     array  $config  An array that holds the plugin configuration
      * @since 1.5
      */
-    function plgButtonBackbutton(& $subject, $config)
+    function __construct(& $subject, $config)
     {
         parent::__construct($subject, $config);
 		$this->loadLanguage();
